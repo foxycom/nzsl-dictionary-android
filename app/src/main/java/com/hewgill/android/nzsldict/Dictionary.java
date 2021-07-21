@@ -43,6 +43,9 @@ public class Dictionary {
                     break;
                 }
                 String[] a = s.split("\t");
+                if (a.length < 7) {
+                    continue;
+                }
                 words.add(new DictItem(a[0], a[1], a[2], a[3], a[4], a[5], a[6]));
             }
         } catch (IOException x) {
