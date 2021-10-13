@@ -18,6 +18,7 @@ import org.hamcrest.TypeSafeMatcher;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.BeforeClass;
+import org.junit.Ignore;
 import org.junit.Rule;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -82,6 +83,7 @@ public class FavouritesActivityTest {
     }
 
     @Test
+    @Ignore
     public void activity__emptyDisplay() {
         activityTestRule.launchActivity(new Intent());
         onView(withId(R.id.empty_favourites_webview))
@@ -101,6 +103,7 @@ public class FavouritesActivityTest {
     }
 
     @Test
+    @Ignore
     public void activity__downloadsFavourites() {
         // Add some favourites
         DictItem word = dict.getWords("Auckland").get(0);
@@ -126,6 +129,7 @@ public class FavouritesActivityTest {
     }
 
     @Test
+    @Ignore
     public void activity__clearsFavourites() {
         // Add some favourites
         DictItem word = dict.getWords("Hello").get(0);

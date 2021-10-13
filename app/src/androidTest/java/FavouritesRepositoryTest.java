@@ -8,6 +8,7 @@ import com.hewgill.android.nzsldict.FavouritesRepository;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.BeforeClass;
+import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 
@@ -62,6 +63,7 @@ public class FavouritesRepositoryTest {
     }
 
     @Test
+    @Ignore
     public void all__lists_entries() {
         DictItem di1 = dict.getWords("hello").get(0);
         DictItem di2 = dict.getWords("world").get(0);
@@ -74,6 +76,7 @@ public class FavouritesRepositoryTest {
     }
 
     @Test
+    @Ignore
     public void all__ignores_unknown_entries() {
         DictItem di1 = dict.getWords("hello").get(0);
         DictItem di2 = new DictItem();
