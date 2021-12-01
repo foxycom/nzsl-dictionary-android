@@ -2,9 +2,9 @@ import android.content.Intent;
 
 import androidx.test.InstrumentationRegistry;
 import androidx.test.espresso.intent.Intents;
+import androidx.test.ext.junit.runners.AndroidJUnit4;
 import androidx.test.filters.LargeTest;
 import androidx.test.rule.ActivityTestRule;
-import androidx.test.runner.AndroidJUnit4;
 
 import com.hewgill.android.nzsldict.DictItem;
 import com.hewgill.android.nzsldict.Dictionary;

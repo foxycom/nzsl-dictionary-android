@@ -1,5 +1,5 @@
+import androidx.test.ext.junit.runners.AndroidJUnit4;
 import androidx.test.filters.SmallTest;
-import androidx.test.runner.AndroidJUnit4;
 
 import com.hewgill.android.nzsldict.DictItem;
 import com.hewgill.android.nzsldict.Dictionary;
