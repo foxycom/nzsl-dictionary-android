@@ -1,3 +1,5 @@
+package com.hewgill.android.nzsldict;
+
 import android.content.Intent;
 
 import androidx.test.InstrumentationRegistry;

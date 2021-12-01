@@ -1,3 +1,5 @@
+package com.hewgill.android.nzsldict;
+
 import android.content.Intent;
 import androidx.test.espresso.web.webdriver.Locator;
 import androidx.test.filters.LargeTest;
