@@ -10,6 +10,7 @@ import com.hewgill.android.nzsldict.NZSLDictionary;
 import com.hewgill.android.nzsldict.R;
 
 import org.junit.Before;
+import org.junit.Ignore;
 import org.junit.Rule;
 import org.junit.Test;
 import org.junit.runner.RunWith;
