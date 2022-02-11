@@ -1,0 +1,8 @@
+com.hewgill.android.nzsldict.FavouritesActivityTest activity__listsFavourites
+com.hewgill.android.nzsldict.FavouritesActivityTest activity__downloadSingleFavourite
+com.hewgill.android.nzsldict.FavouritesActivityTest activity__favouriteListItemNavigation
+com.hewgill.android.nzsldict.NZSLDictionaryTest test_performingSearchShowsList
+com.hewgill.android.nzsldict.NZSLDictionaryTest test_aboutWebviewRenders
+com.hewgill.android.nzsldict.NZSLDictionaryTest test_wordOfTheDay
+com.hewgill.android.nzsldict.NZSLDictionaryTest test_toggleNormalSearch
+com.hewgill.android.nzsldict.NZSLDictionaryTest test_toggleHandshapeSearch
